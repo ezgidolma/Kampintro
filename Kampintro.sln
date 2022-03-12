@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Dongul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasssIntro", "ClasssIntro\ClasssIntro.csproj", "{B6C31C9B-1D7F-49C2-BEB1-579FBFCCBF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odevler", "Odev\Odevler.csproj", "{1EF0A516-7433-4915-954A-3BD228B65EC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ödev1", "Odev\Ödev1.csproj", "{1EF0A516-7433-4915-954A-3BD228B65EC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{4D7735A4-B63E-434F-B8A8-FAF8F8496029}"
 EndProject
