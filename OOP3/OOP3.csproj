@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{212443A3-1434-490E-884A-00AA6D60DA20}</ProjectGuid>
+    <ProjectGuid>{BE83D3C6-053E-49DE-9C07-88C49E092A4C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kampintro</RootNamespace>
-    <AssemblyName>Kampintro</AssemblyName>
+    <RootNamespace>OOP3</RootNamespace>
+    <AssemblyName>OOP3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BasvuruManager.cs" />
+    <Compile Include="DatabaseLoggerService.cs" />
+    <Compile Include="FileLoggerService.cs" />
+    <Compile Include="ILoggerService1.cs" />
+    <Compile Include="KonutKrediManager.cs" />
+    <Compile Include="KrediManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TasitKrediManager.cs" />
+    <Compile Include="IhtiyacKrediManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\.editorconfig">
-      <Link>.editorconfig</Link>
-    </None>
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
